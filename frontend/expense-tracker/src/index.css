@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+body{
+    user-select: text;
+}
+
+/* Highlighted text selection */
+::selection {
+    background-color: #875cf5;
+    color: black;
+}
+body {
+    
+}
+@theme{
+    --font-display: 'Poppins', sans-serif;
+    --breakpoint-3xl:1920px;
+    --color-primary: #875cf5;
+}
+@layer base {
+    html {
+        font-family: var(--font-display);
+    }
+    body {
+    background-color: #fcfbfc;
+    overflow-x: hidden;
+    }
+    
+}
+
+.inputBox{
+    @apply w-full h-full justify-between gap-3 text-sm text-black bg-slate-100 rounded px-4 py-3 mb-4 mt-4 border border-slate-200 outline-none
+}
+
+.btn-pmy{
+    @apply w-full text-sm bg-blue-500 text-white shadow-lg shadow-purple-600/5 p-[10px] rounded-md my-1 hover:bg-gray-700/50
+    hover:text-blue-600 
+}
+
+.card{
+    @apply bg-white shadow-lg rounded-2xl p-6 shadow-blue-200 border border-gray-200/50
+}
+.card-btn{
+    @apply flex items-center gap-3 text-[14px] font-medium text-gray-800 hover:text-blue-700 bg-gray-50 hover:bg-gray-200 px-4 py-1.5 border border-gray-200/50 rounded-lg cursor-pointer
+}
+
+.add-btn{
+    @apply flex items-center gap-1.5 text-xs md:text-sm font-medium text-blue-600 whitespace-nowrap bg-blue-100 border border-blue-300 rounded-lg px-4 py-2 cursor-pointer hover:text-amber-100 hover:bg-blue-500
+    
+}
+.add-btn-fill{
+    @apply text-blue-950 bg-blue-200
+}
+
+
+.font-fam{
+    font-family:'Times New Roman', Times, serif;
+    /* font-size: 25px; */
+}
+
+/* npm i react-icons axios moment emoji-picker-react react-router-dom recharts react-hot-toast   */

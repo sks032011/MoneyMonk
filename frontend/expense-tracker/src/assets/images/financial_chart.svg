@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" fill="#f8f9fa" rx="10" ry="10" />
+  
+  <!-- Title and Subtitle -->
+  <text x="40" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">All Transactions</text>
+  <text x="40" y="80" font-family="Arial, sans-serif" font-size="16" fill="#666">2nd Jan to 21th Dec</text>
+  
+  <!-- View More Button -->
+  <rect x="650" y="40" width="120" height="40" rx="20" ry="20" fill="#e6e9ff" />
+  <text x="710" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">View More</text>
+  
+  <!-- Y-axis labels -->
+  <text x="40" y="410" font-family="Arial, sans-serif" font-size="14" fill="#666">0</text>
+  <text x="40" y="345" font-family="Arial, sans-serif" font-size="14" fill="#666">50</text>
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="14" fill="#666">120</text>
+  <text x="40" y="215" font-family="Arial, sans-serif" font-size="14" fill="#666">160</text>
+  <text x="40" y="150" font-family="Arial, sans-serif" font-size="14" fill="#666">230</text>
+  <text x="40" y="120" font-family="Arial, sans-serif" font-size="14" fill="#666">400</text>
+  
+  <!-- X-axis labels -->
+  <text x="110" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Jan</text>
+  <text x="210" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Feb</text>
+  <text x="310" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Mar</text>
+  <text x="410" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Apr</text>
+  <text x="510" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">May</text>
+  <text x="610" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Jun</text>
+  <text x="710" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Jul</text>
+  
+  <!-- Bars - Using two-tone sky blue colors -->
+  <!-- January -->
+  <rect x="80" y="290" width="60" height="120" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="80" y="340" width="60" height="70" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- February -->
+  <rect x="180" y="200" width="60" height="210" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="180" y="260" width="60" height="150" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- March -->
+  <rect x="280" y="200" width="60" height="210" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="280" y="250" width="60" height="160" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- April -->
+  <rect x="380" y="180" width="60" height="230" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="380" y="240" width="60" height="170" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- May -->
+  <rect x="480" y="320" width="60" height="90" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="480" y="350" width="60" height="60" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- June -->
+  <rect x="580" y="170" width="60" height="240" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="580" y="230" width="60" height="180" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- July -->
+  <rect x="680" y="150" width="60" height="260" fill="#87CEFA" rx="5" ry="5" />
+  <rect x="680" y="220" width="60" height="190" fill="#1E90FF" rx="5" ry="5" />
+  
+  <!-- Tooltip -->
+  <rect x="390" y="100" width="160" height="80" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="1" />
+  <text x="410" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">April</text>
+  <text x="410" y="155" font-family="Arial, sans-serif" font-size="14" fill="#333">Income: ₹5,500</text>
+  <text x="410" y="175" font-family="Arial, sans-serif" font-size="14" fill="#333">Expense: ₹5,400</text>
+  
+  <!-- Media controls at bottom -->
+  <circle cx="710" cy="470" r="15" fill="#e6e9ff" />
+  <rect x="430" y="460" width="40" height="25" rx="5" ry="5" fill="#e6e9ff" />
+  <text x="450" y="478" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">CC</text>
+  <rect x="480" y="460" width="25" height="25" rx="5" ry="5" fill="#e6e9ff" />
+  <rect x="515" y="460" width="25" height="25" rx="5" ry="5" fill="#e6e9ff" />
+</svg>
